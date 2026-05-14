@@ -9,6 +9,11 @@ namespace P2FixAnAppDotNetCode.Models
     public class Cart : ICart
     {
         /// <summary>
+        /// Collection of cart lines, each line is a product and its quantity in the cart
+        /// </summary>
+        private Dictionary<int, CartLine> _cartLines = new Dictionary<int, CartLine>();
+
+        /// <summary>
         /// Read-only property for dispaly only
         /// </summary>
         public IEnumerable<CartLine> Lines => GetCartLineList();
@@ -19,7 +24,10 @@ namespace P2FixAnAppDotNetCode.Models
         /// <returns></returns>
         private List<CartLine> GetCartLineList()
         {
-            return new List<CartLine>();
+            if (_cartLines.Count == 0)
+                return new List<CartLine>();
+
+            return _cartLines.Values.ToList();
         }
 
         /// <summary>
@@ -27,7 +35,20 @@ namespace P2FixAnAppDotNetCode.Models
         /// </summary>//
         public void AddItem(Product product, int quantity)
         {
-            // TODO implement the method
+            if (!_cartLines.ContainsKey(product.Id))
+            {
+                var cartLine = new CartLine
+                {
+                    Product = product,
+                    Quantity = quantity
+                };
+
+                _cartLines.Add(product.Id,cartLine);
+            }
+            else
+            {
+                _cartLines[product.Id].Quantity += quantity;
+            }
         }
 
         /// <summary>
