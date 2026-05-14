@@ -62,8 +62,18 @@ namespace P2FixAnAppDotNetCode.Models
         /// </summary>
         public double GetTotalValue()
         {
-            // TODO implement the method
-            return 0.0;
+            var cartLines = GetCartLineList();
+
+            if (cartLines.Count == 0)
+                return 0.0;
+
+            var totalValue = 0.0;
+            foreach (var cartLine in cartLines)
+            {
+                totalValue += cartLine.Product.Price * cartLine.Quantity;
+            }
+
+            return totalValue;
         }
 
         /// <summary>
@@ -71,8 +81,18 @@ namespace P2FixAnAppDotNetCode.Models
         /// </summary>
         public double GetAverageValue()
         {
-            // TODO implement the method
-            return 0.0;
+            var cartLines = GetCartLineList();
+
+            if (cartLines.Count == 0)
+                return 0.0;
+
+            var totalQuantity = 0;
+            foreach (var cartLine in cartLines)
+            {
+                totalQuantity += cartLine.Quantity;
+            }
+
+            return GetTotalValue() / totalQuantity;
         }
 
         /// <summary>
