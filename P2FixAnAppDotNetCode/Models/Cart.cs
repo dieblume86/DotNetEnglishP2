@@ -9,7 +9,7 @@ namespace P2FixAnAppDotNetCode.Models
     public class Cart : ICart
     {
         /// <summary>
-        /// Collection of cart lines, each line is a product and its quantity in the cart
+        /// Collection of cartLine, it paired product id with its cartLine
         /// </summary>
         private Dictionary<int, CartLine> _cartLines = new Dictionary<int, CartLine>();
 
