@@ -117,19 +117,35 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ChangeLanguage" xml:space="preserve">
-    <value>Selecciona</value>
+  <data name="Checkout" xml:space="preserve">
+    <value>Realizar el pedido</value>
   </data>
-  <data name="Language" xml:space="preserve">
-    <value>Langue</value>
+  <data name="ContinueShopping" xml:space="preserve">
+    <value>Seguir comprando</value>
   </data>
-  <data name="LanguageEnglish" xml:space="preserve">
-    <value>Inglés</value>
+  <data name="Item" xml:space="preserve">
+    <value>Producto</value>
   </data>
-  <data name="LanguageFrench" xml:space="preserve">
-    <value>Francés</value>
+  <data name="Price" xml:space="preserve">
+    <value>Precio</value>
   </data>
-  <data name="LanguageSpanish" xml:space="preserve">
-    <value>Español</value>
+  <data name="Quantity" xml:space="preserve">
+    <value>Cantidad</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="Subtotal" xml:space="preserve">
+    <value>Subtotal</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+    <comment>Total</comment>
+  </data>
+  <data name="YourCart" xml:space="preserve">
+    <value>Tu cesta</value>
+  </data>
+  <data name="Average" xml:space="preserve">
+    <value>Media</value>
   </data>
 </root>

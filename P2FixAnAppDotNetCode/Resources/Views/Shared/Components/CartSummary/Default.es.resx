@@ -117,19 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ChangeLanguage" xml:space="preserve">
-    <value>Selecciona</value>
-  </data>
-  <data name="Language" xml:space="preserve">
-    <value>Langue</value>
-  </data>
-  <data name="LanguageEnglish" xml:space="preserve">
-    <value>Inglés</value>
-  </data>
-  <data name="LanguageFrench" xml:space="preserve">
-    <value>Francés</value>
-  </data>
-  <data name="LanguageSpanish" xml:space="preserve">
-    <value>Español</value>
+  <data name="YourCart" xml:space="preserve">
+    <value>Tu cesta</value>
   </data>
 </root>

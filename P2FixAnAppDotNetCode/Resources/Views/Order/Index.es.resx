@@ -117,19 +117,37 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ChangeLanguage" xml:space="preserve">
-    <value>Selecciona</value>
+  <data name="Adress" xml:space="preserve">
+    <value>Dirección</value>
   </data>
-  <data name="Language" xml:space="preserve">
-    <value>Langue</value>
+  <data name="City" xml:space="preserve">
+    <value>Ciudad</value>
   </data>
-  <data name="LanguageEnglish" xml:space="preserve">
-    <value>Inglés</value>
+  <data name="CompleteOrder" xml:space="preserve">
+    <value>Finalizar el pedido</value>
   </data>
-  <data name="LanguageFrench" xml:space="preserve">
-    <value>Francés</value>
+  <data name="Country" xml:space="preserve">
+    <value>País</value>
   </data>
-  <data name="LanguageSpanish" xml:space="preserve">
-    <value>Español</value>
+  <data name="EnterDetails" xml:space="preserve">
+    <value>¡Nos pondremos con tu pedido ahora mismo!</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Ubicación</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="OrderTitle" xml:space="preserve">
+    <value>Rellene el formulario</value>
+  </data>
+  <data name="ShipSoon" xml:space="preserve">
+    <value>Te lo enviaremos lo antes posible.</value>
+  </data>
+  <data name="ShipTo" xml:space="preserve">
+    <value>Enviar a</value>
+  </data>
+  <data name="Zip" xml:space="preserve">
+    <value>Código postal</value>
   </data>
 </root>

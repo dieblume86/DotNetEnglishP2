@@ -117,19 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ChangeLanguage" xml:space="preserve">
-    <value>Selecciona</value>
+  <data name="ErrorMissingAddress" xml:space="preserve">
+    <value>Introduzca una dirección</value>
   </data>
-  <data name="Language" xml:space="preserve">
-    <value>Langue</value>
+  <data name="ErrorMissingCity" xml:space="preserve">
+    <value>Introduzca el nombre de una ciudad</value>
   </data>
-  <data name="LanguageEnglish" xml:space="preserve">
-    <value>Inglés</value>
+  <data name="ErrorMissingZip" xml:space="preserve">
+    <value>Introduzca el código postal</value>
   </data>
-  <data name="LanguageFrench" xml:space="preserve">
-    <value>Francés</value>
+  <data name="ErrorMissingCountry" xml:space="preserve">
+    <value>Introduzca el nombre de un país</value>
   </data>
-  <data name="LanguageSpanish" xml:space="preserve">
-    <value>Español</value>
+  <data name="ErrorMissingName" xml:space="preserve">
+    <value>Introduzca un nombre</value>
   </data>
 </root>
