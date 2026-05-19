@@ -39,15 +39,19 @@ namespace P2FixAnAppDotNetCode.Models
             {
                 var cartLine = new CartLine
                 {
-                    Product = product,
-                    Quantity = quantity
+                    Product = product
                 };
 
-                _cartLines.Add(product.Id,cartLine);
+                _cartLines.Add(product.Id, cartLine);
+            }
+
+            if (_cartLines[product.Id].Quantity + quantity < product.Stock)
+            {
+                _cartLines[product.Id].Quantity += quantity;
             }
             else
             {
-                _cartLines[product.Id].Quantity += quantity;
+                _cartLines[product.Id].Quantity = product.Stock;
             }
         }
 
