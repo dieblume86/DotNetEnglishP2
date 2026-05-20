@@ -43,7 +43,7 @@ namespace P2FixAnAppDotNetCode.Models.Services
         {
             foreach (var cartLine in cart.Lines)
             {
-                cartLine.Product.Stock -= cartLine.Quantity;
+                _productRepository.UpdateProductStocks(cartLine.Product.Id, cartLine.Quantity);
             }
         }
     }
