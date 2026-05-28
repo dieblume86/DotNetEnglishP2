@@ -22,9 +22,7 @@ namespace P2FixAnAppDotNetCode.Tests
 
             var products = productService.GetAllProducts();
 
-            //Assert.IsType<List<Product>>(products);
             Assert.IsType<List<Product>>(products);
-
         }
 
         [Fact]
